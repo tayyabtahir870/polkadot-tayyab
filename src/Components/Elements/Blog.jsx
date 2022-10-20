@@ -16,7 +16,7 @@ function Blog() {
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body ">
               <p className="text-start fontcolor">Parachain</p>
                 <h5 className="card-title text-start fw-bold">First Parachain <br /> Successfully Migrates <br /> from Kusama to <br /> Polkadot</h5>
                 <p className="card-text text-start">
@@ -39,7 +39,7 @@ function Blog() {
                 className="card-img-top"
                 alt="..."
               />
-              <div class="card-body p-5">
+              <div className="card-body ">
                 <p className="text-start fontcolor">Polkadot</p>
                 <h5 className="card-title text-start fw-bold">Polkadot Roadmapbr <br /> Roundup</h5>
                 <p className="card-text text-start">
@@ -57,7 +57,7 @@ function Blog() {
           <div class="col">
             <div class="card">
               <img src="https://polkadot.network/content/images/2022/08/image1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body p-4">
+              <div class="card-body  ">
               <p className="text-start fontcolor">Polkadot</p>
                 <h5 className="card-title text-start fw-bold">Sub0, the Polkadot <br /> Developer Conference, <br /> comes to Lisbon in <br /> November</h5>
                 <p className="card-text text-start">
@@ -73,6 +73,13 @@ function Blog() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="text-center" >
+      <h1 className="herotext  my-5 ">
+      Want to get involved?
+            </h1>
+            <button className="hero-btn mt-3">Join the Community</button>
+            <p className="my-5">or learn about how to <a className="clr" href="">build on Polkadot.</a> </p>
       </div>
     </div>
   );

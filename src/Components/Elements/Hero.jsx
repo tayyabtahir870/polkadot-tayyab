@@ -18,9 +18,13 @@ function Hero() {
             </p>
             <button className="hero-btn text-start"><b>Learn Parachains</b> </button> &nbsp;&nbsp;&nbsp;
             <button className="hero-btn text-start"><b>Learn Cross-Chain</b></button>
+
+            <div></div>
           </div>
 
-          <div class="col text-center">Column</div>
+          <div class="col text-center">
+            <img className="img-fluid" src="https://polkadot.network/assets/img/hero/xcm-animation-inner.png?v=ea608e625d" alt="" width={500} />
+          </div>
         </div>
       </div>
     </div>

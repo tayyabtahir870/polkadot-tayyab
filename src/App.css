@@ -82,3 +82,9 @@
 .fontcolor{
   color: #E600A5;
 }
+.clr{
+  color: black;
+}
+.card-body{
+  height: 60vh !important;
+}
