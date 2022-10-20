@@ -1,0 +1,84 @@
+.navfontcolor{
+  color:black ;
+  font-size: 1.3rem;
+}
+.herotext{
+  font-weight: bold;
+  font-size: 3rem;
+}
+.hero-paratext{
+  font-size: 1.25rem;
+  color: #1E1E1E;
+}
+.hero-btn{
+  color: #e6007a;
+  background-color: transparent;
+  border-color: #e6007a;
+  border: solid 1px #e6007a;
+  transform: scale(0.999);
+  border-radius: 2rem;
+  padding: 16px 20px;
+}
+.cardtext{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.footerbackcolor{
+  background-color: #172026;
+}
+.footertextcolor{
+  color: white;
+}
+
+.footer2{
+  display: flex;
+  flex-direction: row;
+}
+
+.powering-backcolor{
+  background-color: #172026;
+}
+.source-backcolor{
+  background-color: #C90D86 ;
+}
+
+.source-textcolor{
+  color: white;
+  font-size: 1.50rem;
+  font-weight: 400;
+}
+.footertextcolor-size{
+  color: white;
+  font-size: 3.5rem;
+}
+
+.founded{
+  background-image: url('https://polkadot.network/assets/img/web3-summit-3.jpg?v=ea608e625d');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.99;
+}
+
+.foundedtext{
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.hero-btn1{
+  color: white;
+  background-color: transparent;
+  border-color: #e6007a;
+  border: solid 1px #e6007a;
+  transform: scale(0.999);
+  border-radius: 2rem;
+  padding: 16px 20px;
+}
+.card-img-top{
+  aspect-ratio: 2/1 !important;
+}
+
+.fontcolor{
+  color: #E600A5;
+}
