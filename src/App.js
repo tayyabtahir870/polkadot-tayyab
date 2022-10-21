@@ -1,27 +1,23 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Layouts/Header';
-import Hero from './Components/Elements/Hero';
-import Cards from './Components/Elements/Cards';
-import Footer from './Components/Layouts/Footer';
-import Powering from './Components/Elements/Powering';
-import Source from './Components/Elements/Source';
-import Founded from './Components/Elements/Founded';
-import Blog from './Components/Elements/Blog';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Home from "./Pages/Home";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Base from "./Components/Layouts/Base";
+import Technology from "./Pages/Technology";
 
 function App() {
   return (
     <div>
-
-      <Header/>
-      <Hero/>
-      <Cards/>
-      <Powering/>
-      <Source/>
-      <Founded/>
-      <Blog/>
-      <Footer/>
-     
+      <BrowserRouter>
+        <Base>
+          <Routes>
+            <Route index path="/" element={<Home />} />
+            <Route index path="/technology" element={<Technology/>} />
+          </Routes>
+        </Base>
+      </BrowserRouter>
     </div>
   );
 }

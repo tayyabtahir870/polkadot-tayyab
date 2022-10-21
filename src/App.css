@@ -88,3 +88,54 @@
 .card-body{
   height: 60vh !important;
 }
+.tech-hero{
+  font-weight: bold;
+  font-size: 3rem;
+}
+.githubpage-img{
+  transform: scale(1.7);
+}
+.network-bgcolor{
+  background-color: #CF0A7F;
+  height: 70vh;
+ 
+}
+.network-paratext{
+  font-size: 1.6rem;
+}
+.built-backcolor{
+  background-color: #EFEFEF;
+}
+.built-text{
+  font-weight: bold;
+}
+.parachains-text{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.parachains-color{
+  background-color: #172026;
+}
+.parachains-paratextsize{
+  font-size: 1.3rem;
+}
+.parachain-text{
+  font-size: 1.5rem;
+}
+.link{
+  color: black;
+}
+
+.roadmap-bgcolor{
+  background-color: #CF0A7F;
+  
+}
+.roadmap-btn{
+  color: white;
+  background-color: transparent;
+  border-color: #f6f4f5;
+  border: solid 1px #e7dee3;
+  transform: scale(0.999);
+  border-radius: 2rem;
+  padding: 16px 20px;
+}
