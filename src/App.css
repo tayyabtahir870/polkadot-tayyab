@@ -206,3 +206,15 @@
   background-repeat: no-repeat;
   opacity: 0.88;
 }
+.founded-pic{
+  background-image: url('https://polkadot.network/assets/img/polkadot-founders.jpg?v=ea608e625d');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+}
+.foundedtext2{
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 900;
+}
