@@ -218,3 +218,17 @@
   font-size: 3.2rem;
   font-weight: 900;
 }
+.founded-color{
+  background-color: #F1F1F2;
+}
+.cardbody1{
+  height: 80vh !important;
+}
+.cardbody2{
+  /* height: 90vh !important; */
+  padding: 10px !important;
+}
+.vl {
+  border-left: 2px solid rgb(239, 243, 239);
+  height: 250px;
+}

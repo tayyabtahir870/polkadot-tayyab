@@ -9,6 +9,7 @@ import Base from "./Components/Layouts/Base";
 import Technology from "./Pages/Technology";
 import Community from "./Pages/Community";
 import Aboutpage from "./Pages/Aboutpage";
+import Contact from "./Pages/Contact";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route index path="/technology" element={<Technology/>} />
             <Route index path="/community" element={<Community/>} />
             <Route index path="/aboutpage" element={<Aboutpage/>} />
+            <Route index path="/contact" element={<Contact/>} />
             
           </Routes>
         </Base>

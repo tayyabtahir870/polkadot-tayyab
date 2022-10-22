@@ -53,9 +53,9 @@ function Header() {
                     </a>
                   </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
+                    <Link class="nav-link" to="/contact">
                       <p className="navfontcolor">Contact</p>
-                    </a>
+                    </Link>
                   </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
               </div>
