@@ -8,6 +8,7 @@ import Network from '../Components/Technology/Network'
 import Parachains from '../Components/Technology/Parachains'
 import Roadmap from '../Components/Technology/Roadmap'
 import Secuirtymodel from '../Components/Technology/Secuirtymodel'
+import Teams from '../Components/Technology/Teams'
 
 function Technology() {
   return (
@@ -21,6 +22,7 @@ function Technology() {
         <Groundbreaking/>
         <Secuirtymodel/>
         <Roadmap/>
+        <Teams/>
     </div>
   )
 }

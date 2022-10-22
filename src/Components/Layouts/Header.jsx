@@ -33,14 +33,14 @@ function Header() {
                    
                   </li>{" "}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
+                    <Link class="nav-link" to='/community'>
                       <p className="navfontcolor">Community</p>
-                    </a>
+                    </Link>
                   </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
+                    <Link class="nav-link" to='/aboutpage'>
                      <p className="navfontcolor">About</p>
-                    </a>
+                    </Link>
                   </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
                     <a class="nav-link" href="/">

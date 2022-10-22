@@ -139,3 +139,70 @@
   border-radius: 2rem;
   padding: 16px 20px;
 }
+.card-body{
+  height: auto !important;
+  border: 10px !important;
+  padding: 1% !important;
+  
+}
+.card{
+  border-radius: 15px !important;
+  border-color: #E9ECEF !important;
+
+}
+.join-txt{
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.join-para{
+  font-size: 1.3rem;
+}
+
+.twitter-txt{
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+}
+.twitter-paratext{
+  color: white;
+  font-size: 1.3rem;
+}
+.twitter-btn{
+  color: white;
+  background-color: transparent;
+  border-color: #e6007a;
+  border: solid 1px #e6007a;
+  
+  border-radius: 2rem;
+ 
+}
+.vali-txt{
+  font-weight: 700;
+  
+}
+.join-para1{
+  font-size: 1.5rem;
+}
+.clr{
+  color: #e6007a ;
+}
+.join-para2{
+  font-size: 1.2rem;
+}
+.upcoming-para{
+  color: white;
+  font-size: 1.5rem;
+}
+.foundedtext1{
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.upcoming-pic{
+  background-image: url('https://polkadot.network/assets/img/web3-summit-2.jpg?v=ea608e625d');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.88;
+}
