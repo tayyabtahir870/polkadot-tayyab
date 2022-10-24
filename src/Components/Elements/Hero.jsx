@@ -1,11 +1,12 @@
 import React from "react";
+import  { ScrollRotate } from 'react-scroll-rotate';
 
 function Hero() {
   return (
     <div>
       <div class="container my-5">
         <div class="row">
-          <div class="col">
+          <div class="col-md-6">
             <h1 className="herotext text-start ">
               The multichain <br /> vision for <br /> Web3 starts <br /> here.
             </h1>
@@ -21,10 +22,14 @@ function Hero() {
 
             <div></div>
           </div>
-
-          <div class="col text-center">
-            <img className="img-fluid" src="https://polkadot.network/assets/img/hero/xcm-animation-inner.png?v=ea608e625d" alt="" width={500} />
+         
+          <div class="col-md-6 text-center">
+            <ScrollRotate>
+            <img className="img-fluid heropic" src="https://polkadot.network/assets/img/hero/xcm-animation-inner.png?v=ea608e625d" alt="" width={500} />
+            <img className="img-fluid heropic1" src="Assests/outer.svg" alt="" width={500} />
+            </ScrollRotate>
           </div>
+
         </div>
       </div>
     </div>

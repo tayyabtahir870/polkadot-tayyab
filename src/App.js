@@ -10,6 +10,10 @@ import Technology from "./Pages/Technology";
 import Community from "./Pages/Community";
 import Aboutpage from "./Pages/Aboutpage";
 import Contact from "./Pages/Contact";
+import Blog from "./Pages/Blog";
+import Build from "./Pages/Build";
+
+
 
 
 function App() {
@@ -23,6 +27,9 @@ function App() {
             <Route index path="/community" element={<Community/>} />
             <Route index path="/aboutpage" element={<Aboutpage/>} />
             <Route index path="/contact" element={<Contact/>} />
+            <Route index path="/build" element={<Build/>} />
+            <Route index path="/blog" element={<Blog/>} />
+          
             
           </Routes>
         </Base>

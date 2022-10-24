@@ -9,14 +9,14 @@ function Blog() {
 
       <div class="container text-center">
         <div class="row">
-          <div class="col">
+          <div class="col-md-4">
             <div class="card">
               <img
                 src="https://polkadot.network/content/images/2022/10/image1.png"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body ">
+              <div class="card-body4 ">
               <p className="text-start fontcolor">Parachain</p>
                 <h5 className="card-title text-start fw-bold">First Parachain <br /> Successfully Migrates <br /> from Kusama to <br /> Polkadot</h5>
                 <p className="card-text text-start">
@@ -32,14 +32,14 @@ function Blog() {
             </div>
           </div>
 
-          <div class="col">
+          <div class="col-md-4">
             <div class="card">
               <img
                 src="https://polkadot.network/content/images/2022/09/004-smol.png"
                 className="card-img-top"
                 alt="..."
               />
-              <div className="card-body ">
+              <div className="card-body4 ">
                 <p className="text-start fontcolor">Polkadot</p>
                 <h5 className="card-title text-start fw-bold">Polkadot Roadmapbr <br /> Roundup</h5>
                 <p className="card-text text-start">
@@ -54,10 +54,10 @@ function Blog() {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <div class="card">
               <img src="https://polkadot.network/content/images/2022/08/image1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body  ">
+              <div class="card-body4  ">
               <p className="text-start fontcolor">Polkadot</p>
                 <h5 className="card-title text-start fw-bold">Sub0, the Polkadot <br /> Developer Conference, <br /> comes to Lisbon in <br /> November</h5>
                 <p className="card-text text-start">
