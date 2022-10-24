@@ -266,6 +266,17 @@
 }
 .heropic{
   position: absolute;
+  
+}
+@media screen and (max-width: 600px) {
+  .heropic {
+    width:  70vw ;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heropic1 {
+    width:  70vw ;
+  }
 }
 .heropic1{
   position: relative;
